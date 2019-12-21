@@ -12,8 +12,6 @@ class EmailAddressParser
   end 
     
   def parse
-    # binding.pry 
     self.email_addresses.delete(',').split(' ').uniq 
-    binding.pry 
   end 
 end 
