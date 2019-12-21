@@ -13,6 +13,6 @@ class EmailAddressParser
     
   def parse
     binding.pry 
-    self.email_addresses.split(',').gsub(' ')
+    self.email_addresses.split(',').gsub(' ', '')
   end 
 end 
