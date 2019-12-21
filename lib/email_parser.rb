@@ -13,7 +13,7 @@ class EmailAddressParser
     
   def parse
     # binding.pry 
-    self.email_addresses.delete(',')
+    self.email_addresses.delete(',').split(' ')
     # binding.pry 
   end 
 end 
